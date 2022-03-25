@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  background-image: url(../images/background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+/* Navigation */
+
+#heading{
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+}
+
+.navbar{
+  font-weight: 200;
+}
+
+.img{
+  width: 10rem;
+}
+
+.pressme{
+  background-color:#222;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  margin: 5px;
+  padding: 8px 10px;
+
+}
+
+.pressme:hover{
+  background-color: #222;
+}
+
+
+.pressme-link {
+  text-decoration: none;
+  color: #fff;
+}
+/* FORM */
+
+.form-div {
+  width: 100%;
+  height: 100vh;
+}
+
+.form {
+  width: 50%;
+  height: fit-content;
+  padding: 2% 3%;
+  background-color: rgba(254, 140, 0, 0.7);
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+#submit {
+  background-color: #333;
+  color: #fff;
+  border: 3px solid #333;
+  transition: 1s;
+}
+
+#submit:hover {
+  background-color: #222;
+}
+
+.link {
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+}
+.link:hover {
+  color: #333;
+}
+
+/* Password recovery */
+.my-btn {
+  background-color: rgba(254, 140, 0, 0.7); 
+  border-color: rgba(254, 140, 0, 0.7);
+  width: 100%;
+  border: none;
+  transition: 1s;
+}
+
+.my-btn:hover {
+  background-color: rgba(223, 134, 26, 0.7); 
+}
+
+.my-btn a {
+  text-decoration: none;
+}
+
+/* FOOTER */
+
+.about-lists {
+  list-style-type: none;
+}
+
+.about-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+
+@media screen and (max-width: 768px) {
+  .form {
+    width: 80%;
+  }
+}
+
+
